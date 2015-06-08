@@ -29,7 +29,7 @@
         </statement>
         <value name="IF1">
           <block type="logic_compare" id="449" inline="true">
-            <field name="OP">NEQ</field>
+            <field name="OP">LT</field>
             <value name="A">
               <block type="math_number" id="472">
                 <field name="NUM">70</field>
