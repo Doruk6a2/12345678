@@ -27,6 +27,11 @@
         <statement name="DO0">
           <block type="movement_right" id="181"></block>
         </statement>
+        <value name="IF1">
+          <block type="math_number" id="413">
+            <field name="NUM">80</field>
+          </block>
+        </value>
         <statement name="DO1">
           <block type="movement_forward" id="352"></block>
         </statement>
