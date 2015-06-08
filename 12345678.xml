@@ -13,13 +13,13 @@
           <block type="logic_compare" id="89" inline="true">
             <field name="OP">LT</field>
             <value name="A">
-              <block type="math_number" id="131">
-                <field name="NUM">50</field>
+              <block type="sensor_object" id="208">
+                <field name="OBJECT">LEFTSIDE</field>
               </block>
             </value>
             <value name="B">
-              <block type="sensor_object" id="208">
-                <field name="OBJECT">LEFTSIDE</field>
+              <block type="math_number" id="131">
+                <field name="NUM">50</field>
               </block>
             </value>
           </block>
@@ -29,24 +29,24 @@
         </statement>
         <value name="IF1">
           <block type="logic_compare" id="449" inline="true">
-            <field name="OP">LT</field>
+            <field name="OP">GT</field>
             <value name="A">
-              <block type="math_number" id="472">
-                <field name="NUM">70</field>
+              <block type="sensor_object" id="487">
+                <field name="OBJECT">LEFTFRONT</field>
               </block>
             </value>
             <value name="B">
-              <block type="sensor_object" id="487">
-                <field name="OBJECT">LEFTFRONT</field>
+              <block type="math_number" id="472">
+                <field name="NUM">80</field>
               </block>
             </value>
           </block>
         </value>
         <statement name="DO1">
-          <block type="movement_forward" id="352"></block>
+          <block type="movement_left" id="362"></block>
         </statement>
         <statement name="ELSE">
-          <block type="movement_left" id="362"></block>
+          <block type="movement_forward" id="352"></block>
         </statement>
         <next>
           <block type="robot_delay" id="257" inline="true">
