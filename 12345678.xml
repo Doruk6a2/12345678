@@ -37,7 +37,7 @@
             </value>
             <value name="B">
               <block type="sensor_object" id="487">
-                <field name="OBJECT">RIGHTSIDE</field>
+                <field name="OBJECT">LEFTFRONT</field>
               </block>
             </value>
           </block>
