@@ -28,8 +28,18 @@
           <block type="movement_right" id="181"></block>
         </statement>
         <value name="IF1">
-          <block type="math_number" id="413">
-            <field name="NUM">80</field>
+          <block type="logic_compare" id="449" inline="true">
+            <field name="OP">NEQ</field>
+            <value name="A">
+              <block type="math_number" id="472">
+                <field name="NUM">70</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="sensor_object" id="487">
+                <field name="OBJECT">RIGHTSIDE</field>
+              </block>
+            </value>
           </block>
         </value>
         <statement name="DO1">
