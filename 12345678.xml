@@ -30,20 +30,12 @@
               <block type="movement_right" id="181"></block>
             </statement>
             <next>
-              <block type="movement_forward" id="327">
-                <next>
-                  <block type="movement_left" id="337">
-                    <next>
-                      <block type="robot_delay" id="257" inline="true">
-                        <value name="DELAY">
-                          <block type="math_number" id="285">
-                            <field name="NUM">80</field>
-                          </block>
-                        </value>
-                      </block>
-                    </next>
+              <block type="robot_delay" id="257" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="285">
+                    <field name="NUM">80</field>
                   </block>
-                </next>
+                </value>
               </block>
             </next>
           </block>
